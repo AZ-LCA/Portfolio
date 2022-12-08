@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
 }
 header, footer {
     width: 100%;
@@ -28,7 +29,7 @@ main {
 }
 .here-dog {
     width: 400px;
-    margin: 0px 300px 0px 0px;
+    margin-right: 150px;
     border-radius: 12px;
 }
 .points-about-me {
@@ -36,4 +37,7 @@ main {
 }
 .bp-font {
     font-size: 32px;
+}
+.page-title, .points-about-me {
+    margin-left: 150px;
 }
