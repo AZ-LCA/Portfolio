@@ -75,8 +75,8 @@ img {
 }
 /*Found the transform, transition and :hover on w3schools*/
 .info_part:hover {
-  /*-ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1)*/
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 .info_link {
