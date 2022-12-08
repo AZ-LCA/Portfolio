@@ -124,12 +124,12 @@ img {
 }
 .info8 {
   grid-row: 7 / span 3;
-  grid-column: 3 / span 2;
+  grid-column: 4 / span 2;
   border-bottom-color: #ffffff;
 }
 .info9 {
   grid-row: 9;
-  grid-column: 5 / span 3;
+  grid-column: 6 / span 2;
   border-bottom-color: #ffffff;
   border-right-color: #ffffff;
 }
@@ -139,11 +139,11 @@ img {
 }
 .info11 {
   grid-row: 7 / span 2;
-  grid-column: 5 / span 2;
+  grid-column: 6 / span 2;
 }
 .info12 {
   grid-row: 7 / span 3;
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 3;
   border-bottom-color: #ffffff;
   border-left-color: #ffffff;
 }
