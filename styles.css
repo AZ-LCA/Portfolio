@@ -1,44 +1,80 @@
 body {
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  header, footer {
-    width: 100%;
-    height: 30px;
-    background:#000000;
-    color: #ffffff;
-    text-align: center;
-    line-height: 30px;
-  }
-  ul {
-    list-style: none;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-  }
-  li {
-    padding-left: 30%;
-    padding-right: 30%;
-  }
-  h4 {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #ffffff;
-    background:#000000;
-  }
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-grow: 1;
-  }
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header, footer {
+  width: 100%;
+  height: 30px;
+  background:#000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+}
+.menu_list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+
+}
+.menu_components {
+  grid-row: 1;
+  /*border: 3px solid #ffffff;
+  border-radius: 2px;
+  padding: 5px;*/
+}
+.white {
+  color: #f5f5f5;
+}
+#menu_title {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.menu_nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  background:#000000;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+.my_profile {
+  display: block;
+  width: 250px;
+  height:250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 30px auto;
+}
+img {
+  max-width: 100%;
+}
+.intro_para {
+  margin: 30px;
+  display: grid;
+  justify-content: center;
+  grid-gap: 5px;
+  grid-template-rows: repeat(9, 50px);
+  grid-template-columns: repeat(9, 50px);
+} 
+.intro1 {
+  grid-row: 1/ span 4;
+  grid-column: 1 / span 4;
+  padding: 20px 20px 20px 20px;
+  font-size: 64px;
+  border: 2px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro_part_link1 {
+  text-decoration: none;
+}
