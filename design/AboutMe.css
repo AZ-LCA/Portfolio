@@ -16,16 +16,24 @@ header, footer {
 main {
     flex-grow: 1;
 }
-.page_title {
+.page-title {
     align-items: flex-start;
     font-size: 36px;
     text-decoration: underline;
 }
-.describing_myself {
+.describing-myself {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.here_dog {
-    width: 200px;
+.here-dog {
+    width: 400px;
+    margin: 0px 300px 0px 0px;
+    border-radius: 12px;
+}
+.points-about-me {
+    max-width: 600px;
+}
+.bp-font {
+    font-size: 32px;
 }
