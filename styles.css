@@ -61,7 +61,7 @@ img {
   margin: 30px;
   display: grid;
   justify-content: center;
-  grid-gap: 5px;
+  grid-gap: 8px;
   grid-template-rows: repeat(9, 50px);
   grid-template-columns: repeat(9, 50px);
 } 
@@ -71,6 +71,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform .2s;
+}
+.info_part:hover {
+  /*-ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1)*/
+  transform: scale(1.1);
+}
+.info_link {
+  text-decoration: none;
+  color: #000000;
 }
 .info1 {
   grid-row: 1/ span 4;
@@ -78,10 +88,6 @@ img {
   font-size: 64px;
   border-top-color: #ffffff;
   border-left-color: #ffffff;
-}
-.info_link {
-  text-decoration: none;
-  color: #000000;
 }
 .info2 {
   grid-row: 1;
