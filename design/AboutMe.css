@@ -24,7 +24,7 @@ main {
 .describing_myself {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .here_dog {
     width: 200px;
